@@ -1,0 +1,168 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100% 100%;
+  background-image: url('http://triangledesignart.com/wpimages/wp401cdf87_05_06.jpg');
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+.nav-bar {
+	background-color: #F9CF00;
+	width: 100%;
+	height: 40px;
+	top: 0;
+	position: fixed;
+}
+
+.name, .nav-bar a {
+	font-family: 'Baloo', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	transform: translateY(25%);
+}
+
+.nav-bar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+	position: relative;
+	margin-right: 10px;
+	transform: translateY(25%);
+}
+
+.name {
+	margin-left: 10px;
+	position: absolute;
+	color: white;
+}
+
+.nav-bar li {
+	float: right;
+	margin-left: 10px;
+}
+
+.nav-bar a {
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.nav-bar a:hover {
+	text-shadow: 2px 2px 4px #333;
+}
+
+.about-me-intro, .greeting, .contact-intro, .skills-intro h1,h2 {
+	text-align: center;
+	font-family: 'Baloo', sans-serif;
+	color: #737373;
+}
+
+.greeting h1,h2 {
+	margin-top: 40px;
+	color: #808080;
+}
+
+.about-me-intro, .contact-intro h1 {
+	padding-top: 40px;
+}
+
+.contact-info {
+	text-align: center;
+}
+
+.portfolio-project img {
+	height:300px;
+	width: 500px;
+}
+
+.project-name, .project-dscrpt {
+	text-align: center;
+	font-family: 'Bellefair', serif;
+	padding: 5px;
+}
+
+.project-name {
+	font-size:16pt;
+}
+
+.project-dscrpt {
+	color: #595959;
+}
+
+.portfolio-project {
+	height: 384px;
+	width: 500px;
+	margin-left: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.portfolio-project:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.portfolio-project-info {
+	background-color:#D7D4D4;
+	padding: 2px 16px;
+}
+
+.inv-portfolio-project-info {
+	background-color:orange;
+	padding: 2px 16px;
+}
+
+.portfolio-container {
+	padding-bottom: 30px;
+	padding-left: 100px;
+}
+
+.gh img {
+	width: 35px;
+ 	height: 35px;
+ 	border-top-left-radius: 25px;
+    -webkit-border-top-left-radius: 25px;
+    -moz-border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    -webkit-border-bottom-right-radius: 25px;
+    -moz-border-bottom-right-radius: 25px;
+}
+
+.gh, .email, .phone h3 {
+	font-family: 'Zilla Slab', serif;
+	width: 250px;
+
+}
+
+.contact-info span {
+	font-family: Arial;
+	font-weight: bold;
+	color: black;
+	width: 250px;
+}
+
+hr {
+	width:50%;
+    display: block;
+    margin-bottom: 0.25em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: gray;
+    margin: auto;
+}
+
+.about-me-info, .skills-info {
+	font-family: 'Neuton', serif;
+	font-weight: Light;
+	margin: 0 150px;
+}
+
+.skills-info {
+	text-align: center;
+}
