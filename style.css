@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   height: 100% 100%;
   background-image: url('http://triangledesignart.com/wpimages/wp401cdf87_05_06.jpg');
+  background: rgba(255,255,255,0.5);
   box-sizing: border-box;
   background-size: cover;
 }
@@ -23,6 +24,11 @@ html, body {
 	transform: translateY(25%);
 }
 
+.name {
+	font-size: 22px;
+	transform: translateY(10%)
+}
+
 .nav-bar ul {
 	list-style-type: none;
 	margin: 0;
@@ -31,6 +37,25 @@ html, body {
 	position: relative;
 	margin-right: 10px;
 	transform: translateY(25%);
+}
+
+.footer-msg {
+	text-align: center;
+	font-family: 'Baloo', sans-serif;
+	font-size: 14px;
+	position: relative;
+	transform: translateY(50%);
+}
+
+.footer {
+	height: 20px;
+	background-color: blue;
+	left:0px;
+   	bottom:0px;
+    height:50px;
+    width:100%;
+    background:#999;
+    margin-top: 20px;
 }
 
 .name {
@@ -94,11 +119,12 @@ html, body {
 .portfolio-project {
 	height: 384px;
 	width: 500px;
-	margin-left: 50px;
+	margin-left: 400px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    display: inline-block;
+    display: block;
     margin-bottom: 50px;
+
 }
 
 .portfolio-project:hover {
@@ -117,8 +143,8 @@ html, body {
 }
 
 .portfolio-container {
-	padding-bottom: 30px;
 	padding-left: 100px;
+	margin-top: 30px;
 }
 
 .gh img {
