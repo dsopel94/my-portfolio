@@ -161,7 +161,7 @@ transform: translate(0px, -12px) rotate(-45deg);
 	text-shadow: 2px 2px 4px #333;
 }
 
-.about-me-intro, .greeting, .portfolios, .contact-intro, .skills-intro h1,h2 {
+.about-me-intro, .greeting, .projects, .contact-intro, .skills-intro h1,h2 {
 	text-align: center;
 	font-family: 'Baloo', sans-serif;
 	color: #737373;
@@ -171,10 +171,12 @@ transform: translate(0px, -12px) rotate(-45deg);
 	text-align: center;
 	font-family: 'Neuton', serif;
 	font-weight: Light;
+	font-size: 19pt;
 }
 
 .more-info {
 	text-decoration: underline;
+	font-size: 22pt;
 }
 
 .more-info-container {
@@ -212,6 +214,7 @@ transform: translate(0px, -12px) rotate(-45deg);
 
 .project-dscrpt {
 	color: #595959;
+	font-size: 18pt;
 }
 
 .portfolio-project {
@@ -296,7 +299,7 @@ hr {
 .about-me-info, .skills-info {
 	font-family: 'Neuton', serif;
 	font-weight: Light;
-	font-size: 17px;
+	font-size: 21pt;
 	text-align: center;
 	margin-left: 5px;
 	margin-right: 5px;
