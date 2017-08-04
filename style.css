@@ -12,14 +12,14 @@ html, body {
 #line-1, #line-2, #line-3 {
 	width: 90%;
 	background: white;
-	height: 5px;
-	margin: 4px auto;
+	height: 12px;
+	margin: 7px auto;
 	border-radius: 2px;
 	transition: all linear .3s;
 }
 
 .menu-button{
-  width: 30px;
+  width: 45px;
   border-radius: 5px;
   margin: auto;
   transition: all linear .3s;
@@ -27,7 +27,7 @@ html, body {
   z-index: 1;
   height: 75%;
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 16px;
 }
 
 
@@ -45,10 +45,10 @@ html, body {
 .menu-logo {
 	margin: 0 auto;
 	display: inline-block;
-	transform: translateY(-44%);
+	transform: translateY(-27%);
 	font-family: 'Baloo', sans-serif;
 	color: white;
-	font-size: 18px;
+	font-size: 27pt;
 }
 
 .menu {
@@ -58,7 +58,7 @@ html, body {
 .menu li {
 	display: block;
 	text-align: center;
-	height: 30px;
+	height: 75px;
 	background-color: black;
 	color: white;
 	margin: 0 auto;
@@ -79,6 +79,7 @@ html, body {
 	color:white;
 	text-decoration: none;
 	font-family: 'Baloo', sans-serif;
+	font-size: 25pt;
 }
 
 #line-1.active{
@@ -98,7 +99,7 @@ transform: translate(0px, -12px) rotate(-45deg);
 .nav-bar {
 	background-color: #F9CF00;
 	width: 100%;
-	height: 40px;
+	height: 70px;
 	top: 0;
 	text-align: center;
 }
@@ -106,7 +107,7 @@ transform: translate(0px, -12px) rotate(-45deg);
 .name {
 	font-family: 'Baloo', sans-serif;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 30pt;
 	margin: 0 auto;
 	color: white;
 }
@@ -124,17 +125,17 @@ transform: translate(0px, -12px) rotate(-45deg);
 .footer-msg {
 	text-align: center;
 	font-family: 'Baloo', sans-serif;
-	font-size: 14px;
+	font-size: 27pt;
 	position: relative;
-	transform: translateY(50%);
+	transform: translateY(25%);
 }
 
 .footer {
-	height: 20px;
+	height: 80px;
 	background-color: blue;
 	left:0px;
    	bottom:0px;
-    height:50px;
+    height:80px;
     width:100%;
     background:#999;
     margin-top: 20px;
@@ -195,8 +196,8 @@ transform: translate(0px, -12px) rotate(-45deg);
 }
 
 .portfolio-project img {
-	height: 200px;
-	width: 300px;
+	height: 400px;
+	width: 700px;
 }
 
 .project-name, .project-dscrpt {
@@ -206,7 +207,7 @@ transform: translate(0px, -12px) rotate(-45deg);
 }
 
 .project-name {
-	font-size:16pt;
+	font-size:37pt;
 }
 
 .project-dscrpt {
@@ -258,14 +259,15 @@ a {
 }
 
 .gh img {
-	width: 35px;
- 	height: 35px;
+	width: 150px;
+ 	height: 77px;
  	border-top-left-radius: 25px;
     -webkit-border-top-left-radius: 25px;
     -moz-border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
     -webkit-border-bottom-right-radius: 25px;
     -moz-border-bottom-right-radius: 25px;
+    transform: translateY(-25%);
 }
 
 .gh, .email, .phone h3 {
