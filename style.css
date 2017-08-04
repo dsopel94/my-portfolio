@@ -6,6 +6,93 @@ html, body {
   background: rgba(255,255,255,0.5);
   box-sizing: border-box;
   background-size: cover;
+
+}
+
+#line-1, #line-2, #line-3 {
+	width: 90%;
+	background: white;
+	height: 5px;
+	margin: 4px auto;
+	border-radius: 2px;
+	transition: all linear .3s;
+}
+
+.menu-button{
+  width: 30px;
+  border-radius: 5px;
+  margin: auto;
+  transition: all linear .3s;
+  padding: 4px;
+  z-index: 1;
+  height: 75%;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+
+.burger-block {
+	background: grey;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+}
+
+.burger-block:hover {
+	background-color: black;
+}
+
+.menu-logo {
+	margin: 0 auto;
+	display: inline-block;
+	transform: translateY(-44%);
+	font-family: 'Baloo', sans-serif;
+	color: white;
+	font-size: 18px;
+}
+
+.menu {
+	display: none;
+}
+
+.menu li {
+	display: block;
+	text-align: center;
+	height: 30px;
+	background-color: black;
+	color: white;
+	margin: 0 auto;
+	border: 2px solid grey;
+}
+
+.menu ul {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+}
+
+.menu a {
+	color:white;
+	text-decoration: none;
+	font-family: 'Baloo', sans-serif;
+}
+
+#line-1.active{
+-webkit-transform: translate(0px,12px) rotate(45deg);
+transform: translate(0px,12px) rotate(45deg);
+}
+
+#line-2.active{
+opacity: 0;
+}
+
+#line-3.active{
+-webkit-transform: translate(0px, -12px) rotate(-45deg);
+transform: translate(0px, -12px) rotate(-45deg);
 }
 
 .nav-bar {
@@ -13,20 +100,15 @@ html, body {
 	width: 100%;
 	height: 40px;
 	top: 0;
-	position: fixed;
-}
-
-.name, .nav-bar a {
-	font-family: 'Baloo', sans-serif;
-	font-weight: bold;
-	font-size: 18px;
-	color: white;
-	transform: translateY(25%);
+	text-align: center;
 }
 
 .name {
-	font-size: 22px;
-	transform: translateY(10%)
+	font-family: 'Baloo', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 auto;
+	color: white;
 }
 
 .nav-bar ul {
@@ -58,15 +140,15 @@ html, body {
     margin-top: 20px;
 }
 
-.name {
-	margin-left: 10px;
-	position: absolute;
-	color: white;
-}
 
 .nav-bar li {
 	float: right;
 	margin-left: 10px;
+}
+
+.nav-bar a:hover {
+	background: blue;
+	height: 100%;
 }
 
 .nav-bar a {
@@ -78,19 +160,39 @@ html, body {
 	text-shadow: 2px 2px 4px #333;
 }
 
-.about-me-intro, .greeting, .contact-intro, .skills-intro h1,h2 {
+.about-me-intro, .greeting, .portfolios, .contact-intro, .skills-intro h1,h2 {
 	text-align: center;
 	font-family: 'Baloo', sans-serif;
 	color: #737373;
 }
 
+.project-link, .project-repo, .project-tech-used, .more-info {
+	text-align: center;
+	font-family: 'Neuton', serif;
+	font-weight: Light;
+}
+
+.more-info {
+	text-decoration: underline;
+}
+
+.project-tech-used {
+	margin-bottom: 10px;
+}
+
+.more-info-container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+}
+
 .greeting h1,h2 {
-	margin-top: 40px;
+	margin-top: 10px;
 	color: #808080;
 }
 
 .about-me-intro, .contact-intro h1 {
-	padding-top: 40px;
+	margin-top: 10px;
 }
 
 .contact-info {
@@ -98,8 +200,8 @@ html, body {
 }
 
 .portfolio-project img {
-	height:300px;
-	width: 500px;
+	height:200px;
+	width: 300px;
 }
 
 .project-name, .project-dscrpt {
@@ -117,14 +219,14 @@ html, body {
 }
 
 .portfolio-project {
-	height: 384px;
-	width: 500px;
-	margin-left: 400px;
+	height: 200px;
+	width: 300px;
+	margin: 0 auto;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     display: block;
-    margin-bottom: 50px;
-
+    margin-bottom: 130px;
+    
 }
 
 .portfolio-project:hover {
@@ -143,8 +245,11 @@ html, body {
 }
 
 .portfolio-container {
-	padding-left: 100px;
 	margin-top: 30px;
+}
+
+a {
+	text-decoration: none;
 }
 
 .gh img {
@@ -175,8 +280,6 @@ hr {
 	width:50%;
     display: block;
     margin-bottom: 0.25em;
-    margin-left: auto;
-    margin-right: auto;
     border-style: inset;
     border-width: 1px;
     color: gray;
@@ -186,7 +289,10 @@ hr {
 .about-me-info, .skills-info {
 	font-family: 'Neuton', serif;
 	font-weight: Light;
-	margin: 0 150px;
+	font-size: 17px;
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .skills-info {

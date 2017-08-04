@@ -1,7 +1,11 @@
-$(document).ready(function(){
-      if (window.location.hash == "#about-me") {
-        $('html, body').animate({
-           scrollTop: $("#about-me").offset().top
-         }, 1000);
-      }
-   });
+$(function() {
+	$('.burger-block').click(function(event) {
+		$(".menu").slideToggle("slow");
+		console.log("clicked")
+		event.preventDefault();
+	});
+});
+
+$('.menu').click('a', function(event) {
+		$(".menu").slideToggle("slow");
+	});
