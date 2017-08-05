@@ -1,3 +1,5 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 800px) and (orientation : portrait) { 
+
 html, body {
   margin: 0;
   padding: 0;
@@ -315,7 +317,6 @@ hr {
 
 }
 
-@media only screen and (min-device-width: 375px) {
 html, body {
   margin: 0;
   padding: 0;
@@ -516,6 +517,4 @@ hr {
 
 .skills-info {
 	text-align: center;
-}
-
 }
