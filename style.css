@@ -332,10 +332,21 @@ html, body {
 	margin-top: 50px;
 	font-size: 30pt;
 	color: #737373;
+	text-align: center;
+	font-family: 'Baloo', sans-serif;
 }
 
 .greeting h2 {
 	margin-top: -25px;
+	text-align: center;
+	font-family: 'Baloo', sans-serif;
+	color: #808080;
+}
+
+.projects, .contact-intro, .skills-intro, .about-me-intro {
+	text-align: center;
+	font-family: 'Baloo', sans-serif;
+	color: #737373;
 }
 
 h2 {
@@ -518,6 +529,26 @@ hr {
 
 .skills-info {
 	text-align: center;
+}
+
+.project-link, .project-repo, .project-tech-used, .more-info {
+	text-align: center;
+	font-family: 'Neuton', serif;
+	font-weight: Light;
+}
+
+.more-info {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.more-info-container a {
+	text-decoration: none;
+	color: grey;
+}
+
+.menu {
+	display: none;
 }
 
 }
