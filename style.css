@@ -313,7 +313,9 @@ hr {
 	display: none;
 }
 
-@media only screen and (min-width: 1000px ) {
+}
+
+@media only screen and (min-width: 800px ) and (min-device-width: 375px) {
 html, body {
   margin: 0;
   padding: 0;
