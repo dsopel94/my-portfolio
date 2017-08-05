@@ -224,7 +224,7 @@ transform: translate(0px, -12px) rotate(-45deg);
 }
 
 .more-info-container {
-	margin: 30px;
+	margin: 40px;
 }
 
 
@@ -549,6 +549,10 @@ hr {
 
 .menu {
 	display: none;
+}
+
+.more-info-container {
+	margin-bottom: 40px;
 }
 
 }
