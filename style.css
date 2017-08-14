@@ -21,11 +21,16 @@ html, body {
 }
 
 .project-link, .project-repo, .project-tech-used, .more-info {
-	text-align: left;
+	text-align: center;
 	font-family: 'Neuton', serif;
 	font-weight: Light;
 	font-size: 24pt;
 	text-decoration: none;
+	margin: auto;
+}
+
+.project-content {
+	margin-bottom: 30px;
 }
 
 .project-content p {
@@ -227,7 +232,7 @@ transform: translate(0px, -12px) rotate(-45deg);
 .project img {
 	height: 500px;
 	width: 750px;
-	margin-left: 2%;
+	margin-left: 3%;
 }
 
 .project-name, .project-dscrpt {
