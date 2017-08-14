@@ -20,6 +20,35 @@ html, body {
 	transition: all linear .3s;
 }
 
+.project-link, .project-repo, .project-tech-used, .more-info {
+	text-align: left;
+	font-family: 'Neuton', serif;
+	font-weight: Light;
+	font-size: 24pt;
+	text-decoration: none;
+}
+
+.project-content p {
+	font-family: 'Neuton', serif;
+	font-size: 13pt;
+}
+
+.project-content a {
+	text-decoration-style: none;
+	color: gray;
+	font-family: 'Neuton', serif;
+	font-size: 13pt;
+}
+
+.project-content h3 {
+	font-style: underline;
+	font-weight: lighter;
+	font-family: 'Neuton', serif;
+	font-size: 18pt;
+	text-decoration: underline;
+	text-align: center;
+}
+
 .menu-button{
   width: 45px;
   border-radius: 5px;
@@ -195,9 +224,10 @@ transform: translate(0px, -12px) rotate(-45deg);
 	text-align: center;
 }
 
-.portfolio-project img {
-	height: 400px;
-	width: 700px;
+.project img {
+	height: 500px;
+	width: 750px;
+	margin-left: 2%;
 }
 
 .project-name, .project-dscrpt {
@@ -292,6 +322,7 @@ hr {
     border-width: 1px;
     color: gray;
     margin: auto;
+    height: 2px;
 }
 
 .about-me-info, .skills-info {
@@ -326,6 +357,62 @@ html, body {
   background: rgba(255,255,255,0.5);
   box-sizing: border-box;
   background-size: cover;
+}
+
+.about-me-info, .skills-info {
+	font-family: 'Neuton', serif;
+	font-weight: Light;
+	font-size: 21pt;
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.about-me-info {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.project img {
+	height: 600px;
+	width: 800px;
+	margin-left: 50px;
+	margin-top: 30px;
+	float: left;
+	display: inline-block;
+}
+
+.project-content {
+	float: right;
+	margin-right: 20%;
+	width:280px;
+
+}
+
+.project {
+	overflow: hidden;
+}
+
+.project-content p {
+	font-family: 'Neuton', serif;
+	font-size: 13pt;
+	text-align: left;
+}
+
+.project-content a {
+	text-decoration-style: none;
+	color: gray;
+	font-family: 'Neuton', serif;
+	font-size: 13pt;
+	text-align: center;
+}
+
+.project-content h3 {
+	font-style: underline;
+	font-weight: lighter;
+	font-family: 'Neuton', serif;
+	font-size: 18pt;
+	text-decoration: underline;
 }
 
 .greeting h1 {
@@ -424,18 +511,8 @@ h2 {
 	text-shadow: 2px 2px 4px #333;
 }
 
-.project-link, .project-repo, .project-tech-used, .more-info {
-font-size: 18px;
-margin-right: 150px;
-}
-
 .contact-info {
 	text-align: center;
-}
-
-.portfolio-project img {
-	height:300px;
-	width: 500px;
 }
 
 .project-name, .project-dscrpt {
@@ -454,34 +531,6 @@ margin-right: 150px;
 
 .project-dscrpt {
 	color: #595959;
-}
-
-.portfolio-project {
-    width: 500px;
-    margin: auto;
-    transition: 0.3s;
-    display: block;
-    margin-bottom: 30px;
-}
-
-
-.portfolio-project:hover {
-    box-shadow: 0 8px 16px 0px rgba(0,0,0,0.4);
-}
-
-
-.portfolio-project-info {
-	background-color:#D7D4D4;
-	padding: 2px 16px;
-}
-
-.inv-portfolio-project-info {
-	background-color:orange;
-	padding: 2px 16px;
-}
-
-.portfolio-container {
-	margin-top: 30px;
 }
 
 .gh img {
@@ -520,18 +569,12 @@ hr {
     margin: auto;
 }
 
-.about-me-info, .skills-info {
-	font-family: 'Neuton', serif;
-	font-weight: Light;
-	margin: 0 150px;
-}
-
 .skills-info {
 	text-align: center;
 }
 
 .project-link, .project-repo, .project-tech-used, .more-info {
-	text-align: center;
+	text-align: left;
 	font-family: 'Neuton', serif;
 	font-weight: Light;
 }
@@ -548,11 +591,6 @@ hr {
 
 .menu {
 	display: none;
-}
-
-.more-info-container {
-margin-bottom: 40px;
-    margin-left: 150px;
 }
 
 
