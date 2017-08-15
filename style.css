@@ -403,7 +403,7 @@ html, body {
 
 .project-content p {
 	font-family: 'Neuton', serif;
-	font-size: 13pt;
+	font-size: 1.3em;
 	text-align: center;
 }
 
@@ -411,7 +411,7 @@ html, body {
 	text-decoration-style: none;
 	color: gray;
 	font-family: 'Neuton', serif;
-	font-size: 13pt;
+	font-size: 15pt;
 	text-align: center;
 }
 
@@ -531,7 +531,7 @@ h2 {
 }
 
 .about-me-info, .skills-info {
-	font-size: 19px;
+	font-size: 1.3em;
 }
 
 .project-name {
