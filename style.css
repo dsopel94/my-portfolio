@@ -381,6 +381,7 @@ html, body {
   background: rgba(255,255,255,0.5);
   box-sizing: border-box;
   background-size: cover;
+  transition: background-color 1s ease;;
 }
 
 .color-red {
@@ -451,7 +452,6 @@ html, body {
 	font-family: 'Neuton', serif;
 	font-size: 15pt;
 	text-align: center;
-
 }
 
 .project-content h3 {
