@@ -496,6 +496,17 @@ body {
 	margin-top: 0px;
 }
 
+.header-name, .last-name {
+ animation-delay:0.8s; 
+ -moz-animation-delay:0.8s; 
+ -webkit-animation-delay:0.8s; 
+}
+
+.greeting {
+	transition: 1s;
+	left: 0;
+}
+
 h2 {
 	font-size: 25pt;
 	color:black;
