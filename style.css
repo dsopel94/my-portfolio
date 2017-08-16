@@ -454,9 +454,10 @@ body {
     font-weight: bold;
     font-size: 26pt;
     color: black;
-    margin-top: 3%;
-    margin-left: 49%;
+    margin-top: 2%;
+    margin-left: 44%;
     font-weight: bold;
+    width: 51%;
 }
 
 .header-name {
@@ -474,7 +475,7 @@ body {
 	text-align: center;
 	font-family: 'Baloo', sans-serif;
 	color: #737373;
-	margin-top: -37px;
+	margin-top: 0px;
 }
 
 h2 {
