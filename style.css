@@ -29,13 +29,13 @@ html, body {
 }
 
 .header-name {
-	color: gold !important;
+	color: black !important;
 	font-size: 60pt;
 	font-family: 'Quicksand', sans-serif;
 }
 
 .last-name {
-	color: orange;
+	color: gray;
 }
 
 .project-link, .project-repo, .project-tech-used, .more-info {
