@@ -426,7 +426,7 @@ html, body {
 
 .greeting h1 {
     font-size: 30pt;
-    color: #737373;
+    color: black;
     font-family: 'Quicksand', sans-serif;
     padding-left: 55%;
     padding-top: 9%;
@@ -451,12 +451,12 @@ body {
 .greeting h2 {
     padding-top: 0%;
     font-family: 'Quicksand', sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 26pt;
-    color: gray;
+    color: black;
     margin-top: 3%;
     margin-left: 49%;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .header-name {
@@ -464,7 +464,7 @@ body {
     font-size: 34pt;
     font-weight: 400;
     margin-left: 52%;
-    color:#333333;
+    color:#1a1a1a;
     letter-spacing: 1px;
     margin-top: 0%;
     font-size: 42pt;
