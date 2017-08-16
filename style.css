@@ -383,6 +383,26 @@ html, body {
   background-size: cover;
 }
 
+.color-red {
+	background-color: red;
+}
+
+.color-green {
+	background-color: green;
+}
+
+.color-blue {
+	background-color: blue;
+}
+
+.color-orange {
+	background-color: orange;
+}
+
+.color-white {
+	background-color: white;
+}
+
 .about-me-info, .skills-info {
 	font-family: 'Neuton', serif;
 	font-weight: Light;
@@ -427,10 +447,11 @@ html, body {
 
 .project-content a {
 	text-decoration-style: none;
-	color: gray;
+	color: black;
 	font-family: 'Neuton', serif;
 	font-size: 15pt;
 	text-align: center;
+
 }
 
 .project-content h3 {
