@@ -31,7 +31,7 @@ html, body {
 .header-name {
 	color: gold !important;
 	font-size: 60pt;
-	margin-top: -10px;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .last-name {
