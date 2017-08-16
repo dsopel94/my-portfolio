@@ -497,7 +497,7 @@ body {
 }
 
 .header-name, .last-name { 
-	animation-delay:1.5;
+	animation-delay:1s;
 	-moz-animation-delay:1s; 
 	-webkit-animation-delay:1s; 
 }
@@ -509,9 +509,9 @@ body {
 }
 
 .more-greeting {
-	animation-delay:1s; 
-	-moz-animation-delay:1s; 
-	-webkit-animation-delay:1s;
+	animation-delay:1.5s; 
+	-moz-animation-delay:1.5s; 
+	-webkit-animation-delay:1.5s;
 }
 
 h2 {
