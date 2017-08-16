@@ -497,9 +497,9 @@ body {
 }
 
 .header-name, .last-name {
- animation-delay:0.8s; 
- -moz-animation-delay:0.8s; 
- -webkit-animation-delay:0.8s; 
+  animation-delay:1s; 
+  -moz-animation-delay:1s; 
+  -webkit-animation-delay:1s; 
 }
 
 .greeting {
