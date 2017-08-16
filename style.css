@@ -425,28 +425,52 @@ html, body {
 }
 
 .greeting h1 {
-	margin-top: 70px;
-	font-size: 30pt;
-	color: #737373;
-	text-align: center;
-	font-family: 'Baloo', sans-serif;
+    font-size: 30pt;
+    color: #737373;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 55%;
+    padding-top: 9%;
+    font-weight: 700;
+}
+
+.greeting {
+    background-image: url('paint splatter.jpg');
+    height: 400px;
+    background-size: 53% 100%;
+    background-repeat: no-repeat;
 }
 
 .greeting h2 {
-	margin-top: -25px;
-	text-align: center;
-	font-family: 'Baloo', sans-serif;
-	color: #808080;
+    padding-top: 0%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 26pt;
+    color: gray;
+    margin-top: 3%;
+    margin-left: 49%;
+    font-weight: 700;
+}
+
+.header-name {
+    font-family: 'Helvetica', 'sans-serif';
+    font-size: 34pt;
+    font-weight: 400;
+    margin-left: 52%;
+    color: black;
+    letter-spacing: 1px;
+    margin-top: 0%;
+    font-size: 42pt;
 }
 
 .projects, .contact-intro, .skills-intro, .about-me-intro {
 	text-align: center;
 	font-family: 'Baloo', sans-serif;
 	color: #737373;
+	margin-top: -37px;
 }
 
 h2 {
-	font-size: 20pt;
+	font-size: 25pt;
 }
 
 .nav-bar {
@@ -455,6 +479,14 @@ h2 {
 	height: 40px;
 	top: 0;
 	position: fixed;
+}
+
+.skills-intro {
+	margin-top: 20px;
+}
+
+.contact-intro {
+	margin-top: 10px;
 }
 
 .name, .nav-bar a {
