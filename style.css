@@ -433,6 +433,10 @@ html, body {
     font-weight: 700;
 }
 
+body {
+	background-color: #FFFCFE;
+}
+
 .greeting {
     background-image: url('paint splatter.jpg');
     height: 400px;
