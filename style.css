@@ -437,6 +437,10 @@ body {
 	background-color: #FFFCFE;
 }
 
+.last-name {
+	color:#4d4d4d;
+}
+
 .greeting {
     background-image: url('paint splatter.jpg');
     height: 400px;
@@ -460,7 +464,7 @@ body {
     font-size: 34pt;
     font-weight: 400;
     margin-left: 52%;
-    color: black;
+    color:#333333;
     letter-spacing: 1px;
     margin-top: 0%;
     font-size: 42pt;
