@@ -66,7 +66,6 @@ $(window).scroll(function() {
        
       // Add class of currently active div
       $body.addClass('color-' + $(this).data('color'));
-      $nav.addClass('color-' + $(this).data('color'));
     }
   });    
   
