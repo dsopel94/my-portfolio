@@ -256,8 +256,8 @@ transform: translate(0px, -12px) rotate(-45deg);
 .project img {
     height: 500px;
     margin: 0 auto;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .project-name, .project-dscrpt {
