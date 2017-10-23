@@ -92,6 +92,7 @@ html, body {
 	display: block;
 	text-align: center;
 	cursor: pointer;
+	width: 100%;
 }
 
 .burger-block:hover {
@@ -255,8 +256,8 @@ transform: translate(0px, -12px) rotate(-45deg);
 .project img {
     height: 500px;
     margin: 0 auto;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .project-name, .project-dscrpt {
