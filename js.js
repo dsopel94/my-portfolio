@@ -10,9 +10,6 @@ $('.menu').click('a', function(event) {
 		$(".menu").slideToggle("slow");
 	});
 
-
-
-
 $(window).scroll(function() {
   
 	var projects =$('#greeting').offset(); 
